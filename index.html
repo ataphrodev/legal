@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Documentos legales · Ataphro Dev</title>
+<style>
+  :root {
+    --carbon: #1E232A;
+    --pizarra: #34495E;
+    --menta: #00E6A5;
+    --papel: #FFFFFF;
+    --texto: #1E232A;
+    --suave: #5F6B7A;
+    --linea: #D9E0E7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --papel: #1E232A;
+      --texto: #F8F9FA;
+      --suave: #9AA7B5;
+      --linea: #34495E;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 48px 20px 64px;
+    background: var(--papel);
+    color: var(--texto);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header { border-bottom: 3px solid var(--menta); padding-bottom: 16px; margin-bottom: 28px; }
+  h1 { font-size: 1.75rem; margin: 0 0 4px; letter-spacing: -0.02em; }
+  .lema { color: var(--suave); font-size: 0.95rem; margin: 0; }
+  h2 { font-size: 1.1rem; margin: 36px 0 12px; }
+  p { margin: 0 0 14px; }
+  ul.documentos { list-style: none; padding: 0; margin: 0; }
+  ul.documentos li { border-bottom: 1px solid var(--linea); }
+  ul.documentos a {
+    display: block;
+    padding: 16px 4px;
+    text-decoration: none;
+    color: inherit;
+  }
+  ul.documentos a:hover { background: color-mix(in srgb, var(--menta) 10%, transparent); }
+  .titulo { font-weight: 650; display: block; }
+  .apunte { color: var(--suave); font-size: 0.9rem; }
+  a { color: var(--pizarra); }
+  @media (prefers-color-scheme: dark) { a { color: var(--menta); } }
+  footer {
+    margin-top: 44px;
+    padding-top: 16px;
+    border-top: 1px solid var(--linea);
+    color: var(--suave);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>Ataphro Dev</h1>
+  <p class="lema">Documentos legales</p>
+</header>
+
+<p>Apps eficientes y sin estrés. Todo se guarda en tu móvil: privacidad real y el control absoluto
+de tus datos.</p>
+
+<h2>TactikosHub</h2>
+
+<ul class="documentos">
+  <li>
+    <a href="privacidad.html">
+      <span class="titulo">Política de privacidad</span>
+      <span class="apunte">Qué guarda la aplicación, dónde, y qué sale del dispositivo</span>
+    </a>
+  </li>
+</ul>
+
+<footer>
+  Contacto: <a href="mailto:ataphrodev@gmail.com">ataphrodev@gmail.com</a>
+</footer>
+
+</main>
+</body>
+</html>
